@@ -763,7 +763,7 @@
 
                 titleTotalHeight += this.footerTotalHeight;
 
-                return titleTotalHeight + this.internalTableData.length * this.rowHeight + 1;
+                return titleTotalHeight + this.internalTableData.length * (this.rowHeight + 0.5);
             },
 
 
